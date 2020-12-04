@@ -28,6 +28,6 @@ func main() {
 	processErr(err)
 
 	for _, node := range nodes {
-		fmt.Println(node.Data)
+		fmt.Println(node.OutputXML(true))
 	}
 }
